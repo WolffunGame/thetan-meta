@@ -1,51 +1,8 @@
-### SkinRarity
-
-- DEFAULT: 0
-- RARE: 1
-- MYTHIC: 2
-
-### Battle Result
-
-- LOSE: -1
-- DRAW: 0
-- WIN: 1
-- UNKNOWN: -999
-
-### Box Event Source
-
-- BET_PURCHASE: 1
-- BET_OPEN: 2
-- BET_ADMIN: 100
-- BET_BINANCE_CLAIM: 101
-
-### Hero Event Source
-
-- HES_Open_Box: 1
-- HES_List: 2
-- HES_Sold: 3
-- HES_Purchase: 4
-- HES_Non_NFT_Shop: 5
-- HES_Mint: 6
-- HES_New_User_Reward: 7
-- HES_First_Free: 8
-- HES_Ranking: 9
-- HES_Unlist: 10
-- HES_ADMIN: 101
-- HES_BETA: 102
-- HES_GG_IOS_REVIEW: 103
-- HES_PARTNER: 104
-
 ### HeroRarity
 
 - COMMON: 0
 - EPIC: 1
 - LEGENDARY: 2
-
-### Convert Term
-
-- ShortTerm: 1
-- MidTerm: 2
-- LongTerm: 3
 
 ### Ingame Mode
 
@@ -102,3 +59,47 @@
 - TS_SEND_ERROR: 98
 - TS_ERROR: 99
 - TS_REFUND: 100
+
+### Hero Event Source
+
+- HES_Open_Box: 1
+- HES_List: 2
+- HES_Sold: 3
+- HES_Purchase: 4
+- HES_Non_NFT_Shop: 5
+- HES_Mint: 6
+- HES_New_User_Reward: 7
+- HES_First_Free: 8
+- HES_Ranking: 9
+- HES_Unlist: 10
+- HES_ADMIN: 101
+- HES_BETA: 102
+- HES_GG_IOS_REVIEW: 103
+- HES_PARTNER: 104
+
+### SkinRarity
+
+- DEFAULT: 0
+- RARE: 1
+- MYTHIC: 2
+
+### Convert Term
+
+- ShortTerm: 1
+- MidTerm: 2
+- LongTerm: 3
+
+### Battle Result
+
+- LOSE: -1
+- DRAW: 0
+- WIN: 1
+- UNKNOWN: -999
+
+### Box Event Source
+
+- BET_PURCHASE: 1
+- BET_OPEN: 2
+- BET_ADMIN: 100
+- BET_BINANCE_CLAIM: 101
+
