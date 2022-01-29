@@ -1,4 +1,5 @@
-***CurrencyChangeSource
+### Currency change source
+
 - CCS_UPGRADE_HERO: 1
 - CCS_BATTLE_END: 2
 - CCS_IAP_SHOP: 3
