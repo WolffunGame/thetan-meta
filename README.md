@@ -1,3 +1,23 @@
+### SkinRarity
+
+- DEFAULT: 0
+- RARE: 1
+- MYTHIC: 2
+
+### Battle Result
+
+- LOSE: -1
+- DRAW: 0
+- WIN: 1
+- UNKNOWN: -999
+
+### Box Event Source
+
+- BET_PURCHASE: 1
+- BET_OPEN: 2
+- BET_ADMIN: 100
+- BET_BINANCE_CLAIM: 101
+
 ### Hero Event Source
 
 - HES_Open_Box: 1
@@ -21,24 +41,26 @@
 - EPIC: 1
 - LEGENDARY: 2
 
-### SkinRarity
-
-- DEFAULT: 0
-- RARE: 1
-- MYTHIC: 2
-
 ### Convert Term
 
 - ShortTerm: 1
 - MidTerm: 2
 - LongTerm: 3
 
-### Battle Result
+### Ingame Mode
 
-- LOSE: -1
-- DRAW: 0
-- WIN: 1
-- UNKNOWN: -999
+- TEAM_COLLECT_STAR: 0
+- SOLO_SURVIVAL: 1
+- DUAL_SURVIVAL: 2
+- TEAM_COLLECT_STAR_4_VS_4: 3
+- KING: 5
+- DEATH_MATCH: 6
+- DEATH_MATCH_3_VS_3: 7
+- FLAG: 8
+- TOWER: 9
+- TRY_HERO_SKILL_MODE: 99
+- NONE: 100
+- TUTORIAL: 254
 
 ### Currency Change Source
 
@@ -80,50 +102,3 @@
 - TS_SEND_ERROR: 98
 - TS_ERROR: 99
 - TS_REFUND: 100
-
-### Ingame Mode
-
-- TEAM_COLLECT_STAR: 0
-- SOLO_SURVIVAL: 1
-- DUAL_SURVIVAL: 2
-- TEAM_COLLECT_STAR_4_VS_4: 3
-- KING: 5
-- DEATH_MATCH: 6
-- DEATH_MATCH_3_VS_3: 7
-- FLAG: 8
-- TOWER: 9
-- TRY_HERO_SKILL_MODE: 99
-- NONE: 100
-- TUTORIAL: 254
-
-### Box Event Source
-
-- BET_PURCHASE: 1
-- BET_OPEN: 2
-- BET_ADMIN: 100
-- BET_BINANCE_CLAIM: 101
-
-urce
-
-- BET_PURCHASE: 1
-- BET_OPEN: 2
-- BET_ADMIN: 100
-- BET_BINANCE_CLAIM: 101
-
-### HeroRarity
-
-- COMMON: 0
-- EPIC: 1
-- LEGENDARY: 2
-
-### Convert Term
-
-- ShortTerm: 1
-- MidTerm: 2
-- LongTerm: 3
-
-### Battle Result
-
-- DRAW: 0
-- WIN: 1
-
