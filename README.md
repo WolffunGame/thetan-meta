@@ -1,24 +1,3 @@
-### HeroRarity
-
-- COMMON: 0
-- EPIC: 1
-- LEGENDARY: 2
-
-### Ingame Mode
-
-- TEAM_COLLECT_STAR: 0
-- SOLO_SURVIVAL: 1
-- DUAL_SURVIVAL: 2
-- TEAM_COLLECT_STAR_4_VS_4: 3
-- KING: 5
-- DEATH_MATCH: 6
-- DEATH_MATCH_3_VS_3: 7
-- FLAG: 8
-- TOWER: 9
-- TRY_HERO_SKILL_MODE: 99
-- NONE: 100
-- TUTORIAL: 254
-
 ### Currency Change Source
 
 - CCS_UPGRADE_HERO: 1
@@ -44,6 +23,47 @@
 - CCS_ADMIN_REVERT: 104
 - CCS_CREATOR_PROGRAM_VIEWER: 55
 - CCS_CREATOR_PROGRAM_CREATOR: 56
+
+### HeroRarity
+
+- COMMON: 0
+- EPIC: 1
+- LEGENDARY: 2
+
+### SkinRarity
+
+- DEFAULT: 0
+- RARE: 1
+- MYTHIC: 2
+
+### Ingame Mode
+
+- TEAM_COLLECT_STAR: 0
+- SOLO_SURVIVAL: 1
+- DUAL_SURVIVAL: 2
+- TEAM_COLLECT_STAR_4_VS_4: 3
+- KING: 5
+- DEATH_MATCH: 6
+- DEATH_MATCH_3_VS_3: 7
+- FLAG: 8
+- TOWER: 9
+- TRY_HERO_SKILL_MODE: 99
+- NONE: 100
+- TUTORIAL: 254
+
+### Battle Result
+
+- LOSE: -1
+- DRAW: 0
+- WIN: 1
+- UNKNOWN: -999
+
+### Box Event Source
+
+- BET_PURCHASE: 1
+- BET_OPEN: 2
+- BET_ADMIN: 100
+- BET_BINANCE_CLAIM: 101
 
 ### Transaction History Status
 
@@ -77,29 +97,9 @@
 - HES_GG_IOS_REVIEW: 103
 - HES_PARTNER: 104
 
-### SkinRarity
-
-- DEFAULT: 0
-- RARE: 1
-- MYTHIC: 2
-
 ### Convert Term
 
 - ShortTerm: 1
 - MidTerm: 2
 - LongTerm: 3
-
-### Battle Result
-
-- LOSE: -1
-- DRAW: 0
-- WIN: 1
-- UNKNOWN: -999
-
-### Box Event Source
-
-- BET_PURCHASE: 1
-- BET_OPEN: 2
-- BET_ADMIN: 100
-- BET_BINANCE_CLAIM: 101
 
