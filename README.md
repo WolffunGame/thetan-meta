@@ -1,4 +1,4 @@
-### Currency Change Source
+### 0. Currency Change Source
 
 - CCS_UPGRADE_HERO: 1
 - CCS_BATTLE_END: 2
@@ -24,19 +24,19 @@
 - CCS_CREATOR_PROGRAM_VIEWER: 55
 - CCS_CREATOR_PROGRAM_CREATOR: 56
 
-### HeroRarity
+### 1. HeroRarity
 
 - COMMON: 0
 - EPIC: 1
 - LEGENDARY: 2
 
-### SkinRarity
+### 2. SkinRarity
 
 - DEFAULT: 0
 - RARE: 1
 - MYTHIC: 2
 
-### Ingame Mode
+### 3. Ingame Mode
 
 - TEAM_COLLECT_STAR: 0
 - SOLO_SURVIVAL: 1
@@ -51,21 +51,21 @@
 - NONE: 100
 - TUTORIAL: 254
 
-### Battle Result
+### 4. Battle Result
 
 - LOSE: -1
 - DRAW: 0
 - WIN: 1
 - UNKNOWN: -999
 
-### Box Event Source
+### 5. Box Event Source
 
 - BET_PURCHASE: 1
 - BET_OPEN: 2
 - BET_ADMIN: 100
 - BET_BINANCE_CLAIM: 101
 
-### Transaction History Status
+### 6. Transaction History Status
 
 - TS_NONE: 0
 - TS_NEW: 1
@@ -80,7 +80,7 @@
 - TS_ERROR: 99
 - TS_REFUND: 100
 
-### Hero Event Source
+### 7. Hero Event Source
 
 - HES_Open_Box: 1
 - HES_List: 2
@@ -97,7 +97,7 @@
 - HES_GG_IOS_REVIEW: 103
 - HES_PARTNER: 104
 
-### Convert Term
+### 8. Convert Term
 
 - ShortTerm: 1
 - MidTerm: 2
