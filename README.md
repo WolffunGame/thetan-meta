@@ -1,4 +1,24 @@
-### 0. Currency Change Source
+### 0. Battle Result
+
+- LOSE: -1
+- DRAW: 0
+- WIN: 1
+- UNKNOWN: -999
+
+### 1. Box Event Source
+
+- BET_PURCHASE: 1
+- BET_OPEN: 2
+- BET_ADMIN: 100
+- BET_BINANCE_CLAIM: 101
+
+### 2. Convert Term
+
+- ShortTerm: 1
+- MidTerm: 2
+- LongTerm: 3
+
+### 3. Currency Change Source
 
 - CCS_UPGRADE_HERO: 1
 - CCS_BATTLE_END: 2
@@ -12,6 +32,7 @@
 - CCS_REFERRAL_REWARD: 10
 - CCS_SHOP_BOX_NON_NFT: 11
 - CCS_SPECIAL_EVENT_REWARD: 12
+- CCS_SPECIAL_EVENT_FEE_JOIN: 13
 - CCS_DEPOSIT: 50
 - CCS_CLAIM: 51
 - CCS_CLAIM_FEE: 52
@@ -24,63 +45,7 @@
 - CCS_CREATOR_PROGRAM_VIEWER: 55
 - CCS_CREATOR_PROGRAM_CREATOR: 56
 
-### 1. HeroRarity
-
-- COMMON: 0
-- EPIC: 1
-- LEGENDARY: 2
-
-### 2. SkinRarity
-
-- DEFAULT: 0
-- RARE: 1
-- MYTHIC: 2
-
-### 3. Ingame Mode
-
-- TEAM_COLLECT_STAR: 0
-- SOLO_SURVIVAL: 1
-- DUAL_SURVIVAL: 2
-- TEAM_COLLECT_STAR_4_VS_4: 3
-- KING: 5
-- DEATH_MATCH: 6
-- DEATH_MATCH_3_VS_3: 7
-- FLAG: 8
-- TOWER: 9
-- TRY_HERO_SKILL_MODE: 99
-- NONE: 100
-- TUTORIAL: 254
-
-### 4. Battle Result
-
-- LOSE: -1
-- DRAW: 0
-- WIN: 1
-- UNKNOWN: -999
-
-### 5. Box Event Source
-
-- BET_PURCHASE: 1
-- BET_OPEN: 2
-- BET_ADMIN: 100
-- BET_BINANCE_CLAIM: 101
-
-### 6. Transaction History Status
-
-- TS_NONE: 0
-- TS_NEW: 1
-- TS_PENDING: 2
-- TS_SUCCESS: 3
-- TS_WAITING_ADMIN: 4
-- TS_ADMIN_REVERT: 10
-- TS_COMFIRM_SUCCESS: 20
-- TS_COMFIRM_ERROR: 96
-- TS_ADMIN_REJECT: 97
-- TS_SEND_ERROR: 98
-- TS_ERROR: 99
-- TS_REFUND: 100
-
-### 7. Hero Event Source
+### 4. Hero Event Source
 
 - HES_Open_Box: 1
 - HES_List: 2
@@ -97,9 +62,46 @@
 - HES_GG_IOS_REVIEW: 103
 - HES_PARTNER: 104
 
-### 8. Convert Term
+### 5. HeroRarity
 
-- ShortTerm: 1
-- MidTerm: 2
-- LongTerm: 3
+- COMMON: 0
+- EPIC: 1
+- LEGENDARY: 2
+
+### 6. Ingame Mode
+
+- TEAM_COLLECT_STAR: 0
+- SOLO_SURVIVAL: 1
+- DUAL_SURVIVAL: 2
+- TEAM_COLLECT_STAR_4_VS_4: 3
+- KING: 5
+- DEATH_MATCH: 6
+- DEATH_MATCH_3_VS_3: 7
+- FLAG: 8
+- TOWER: 9
+- TRY_HERO_SKILL_MODE: 99
+- NONE: 100
+- TUTORIAL: 254
+
+### 7. SkinRarity
+
+- DEFAULT: 0
+- RARE: 1
+- MYTHIC: 2
+
+### 8. Transaction History Status
+
+- TS_NONE: 0
+- TS_NEW: 1
+- TS_PENDING: 2
+- TS_SUCCESS: 3
+- TS_WAITING_ADMIN: 4
+- TS_PENDING_REAPPROVED: 5
+- TS_ADMIN_REVERT: 10
+- TS_COMFIRM_SUCCESS: 20
+- TS_COMFIRM_ERROR: 96
+- TS_ADMIN_REJECT: 97
+- TS_SEND_ERROR: 98
+- TS_ERROR: 99
+- TS_REFUND: 100
 
