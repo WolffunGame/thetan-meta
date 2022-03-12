@@ -18,14 +18,42 @@
 - MidTerm: 2
 - LongTerm: 3
 
-### 3. Currency Change Source
+### 3. Cosmetic Event Source
+
+- CES_OPEN_BOX: 1
+- CES_SEASON_END: 2
+- CES_RANKING_REWARD: 3
+
+### 4. Cosmetic Rarity
+
+- CR_COMMON: 1
+- CR_EPIC: 2
+- CR_LEGENDARY: 3
+
+### 5. Cosmetic Status
+
+- CS_FREE: 1
+- CS_MINTING: 2
+- CS_AVAILABLE: 3
+- CS_SELLING: 20
+
+### 6. Cosmetic Type
+
+- CT_none: 0
+- CT_AVATAR: 1
+- CT_AVATAR_FRAME: 2
+- CT_EMOTE: 3
+- CT_SPACE_SHIP: 4
+- CT_end: 5
+
+### 7. Currency Change Source
 
 - CCS_UPGRADE_HERO: 1
 - CCS_BATTLE_END: 2
 - CCS_IAP_SHOP: 3
 - CCS_LEVEL_UP: 4
 - CCS_RANKING_REWARD: 5
-- CCS_SEASON_BOX_REWARD: 6
+- CCS_SEASON_END_REWARD: 6
 - CCS_SHOP_NON_NFT: 7
 - CCS_SHOP_POWER_POINT: 8
 - CCS_SHOP_INGAME_THG: 9
@@ -45,30 +73,29 @@
 - CCS_CREATOR_PROGRAM_VIEWER: 55
 - CCS_CREATOR_PROGRAM_CREATOR: 56
 
-### 4. Hero Event Source
+### 8. Hero Event Source
 
 - HES_Open_Box: 1
-- HES_List: 2
 - HES_Sold: 3
 - HES_Purchase: 4
 - HES_Non_NFT_Shop: 5
-- HES_Mint: 6
 - HES_New_User_Reward: 7
 - HES_First_Free: 8
 - HES_Ranking: 9
-- HES_Unlist: 10
 - HES_ADMIN: 101
 - HES_BETA: 102
 - HES_GG_IOS_REVIEW: 103
 - HES_PARTNER: 104
 
-### 5. HeroRarity
+### 9. Hero Rarity
 
+- HR_s: -1
 - COMMON: 0
 - EPIC: 1
 - LEGENDARY: 2
+- HR_e: 3
 
-### 6. Ingame Mode
+### 10. Ingame Mode
 
 - TEAM_COLLECT_STAR: 0
 - SOLO_SURVIVAL: 1
@@ -83,13 +110,21 @@
 - NONE: 100
 - TUTORIAL: 254
 
-### 7. SkinRarity
+### 11. Ref Type
 
+- HERO: 0
+- PET: 1
+- COSMETIC: 2
+
+### 12. Skin Rarity
+
+- SR_s: -1
 - DEFAULT: 0
 - RARE: 1
 - MYTHIC: 2
+- SR_e: 3
 
-### 8. Transaction History Status
+### 13. Transaction History Status
 
 - TS_NONE: 0
 - TS_NEW: 1
